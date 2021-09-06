@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Balai Kota Catalyst Timur – Cardano Catalyst Community Eastern Town Hall</title><link>/id/</link><description>Recent content in Cardano Catalyst Community Eastern Town Hall on Balai Kota Catalyst Timur</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/id/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dokumentasi mudah dengan Docsy</title><link>/id/blog/2018/10/06/dokumentasi-mudah-dengan-docsy/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>/id/blog/2018/10/06/dokumentasi-mudah-dengan-docsy/</guid><description>
+&lt;img src="/id/blog/2018/10/06/dokumentasi-mudah-dengan-docsy/featured-sunset-get_hu5f299b5f3d0d701c1ef5afe858e66b6a_91467_640x0_resize_q75_catmullrom.jpg" width="640" height="253"/>
+&lt;p>&lt;strong>Ini adalah posting blog khas yang menyertakan gambar.&lt;/strong>&lt;/p>
+&lt;p>Bagian depan menentukan tanggal posting blog, judulnya, deskripsi singkat yang akan ditampilkan di halaman arahan blog, dan penulisnya.&lt;/p>
+&lt;h2 id="termasuk-gambar">Termasuk gambar&lt;/h2>
+&lt;p>Berikut adalah gambar ( &lt;code>featured-sunset-get.jpg&lt;/code> ) yang menyertakan byline dan keterangan.&lt;/p>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="/id/blog/2018/10/06/dokumentasi-mudah-dengan-docsy/featured-sunset-get_hu5f299b5f3d0d701c1ef5afe858e66b6a_91467_600x300_fill_q75_catmullrom_smart1.jpg" width="600" height="300">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text"> Ambil dan skalakan gambar di Hugo 0.43 mendatang. &lt;small class="text-muted">&lt;br/>Foto: Riona MacNamara / CC-BY-CA&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>Materi depan posting ini menentukan properti yang akan ditetapkan ke semua sumber daya gambar:&lt;/p>
+&lt;pre tabindex="0">&lt;code>resources:
+- src: &amp;quot;**.{png,jpg}&amp;quot;
+title: &amp;quot;Image #:counter&amp;quot;
+params:
+byline: &amp;quot;Photo: Riona MacNamara / CC-BY-CA&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>Untuk menyertakan gambar di halaman, tentukan detailnya seperti ini:&lt;/p>
+&lt;pre tabindex="0">&lt;code>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="/id/blog/2018/10/06/dokumentasi-mudah-dengan-docsy/featured-sunset-get_hu5f299b5f3d0d701c1ef5afe858e66b6a_91467_600x300_fill_q75_catmullrom_smart1.jpg" width="600" height="300">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+Ambil dan skalakan gambar di Hugo 0.43 mendatang.
+&lt;small class="text-muted">&lt;br/>Foto: Riona MacNamara / CC-BY-CA&lt;/small>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/code>&lt;/pre>&lt;p>Gambar akan dirender pada ukuran dan byline yang ditentukan di bagian depan.&lt;/p></description></item></channel></rss>
